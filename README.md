@@ -1,4 +1,4 @@
 # mopla
 
-python3 manage.py runserver --noreload &>> out.log
+python3 manage.py runserver 0:80 --noreload &>> out.log &
 
